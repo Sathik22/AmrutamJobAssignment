@@ -42,7 +42,7 @@ const CustomerReview = ({ deviceType }) => {
         description:
           'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, officia libero quia maiores tempora!',
       },
-    // Add more review objects as needed
+    
   ];
 
   const responsive = {
