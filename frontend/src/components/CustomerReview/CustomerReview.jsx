@@ -2,7 +2,7 @@ import React from 'react';
 import './CustomerReview.css';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import { assets } from '../../assets/assets'; // Replace with the actual path to the image
+import { assets } from '../../assets/assets'; 
 
 const CustomerReview = ({ deviceType }) => {
   const reviews = [
