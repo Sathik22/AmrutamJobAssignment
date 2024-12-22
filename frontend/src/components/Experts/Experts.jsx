@@ -2,7 +2,7 @@ import React from 'react';
 import './Experts.css';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import { assets } from '../../assets/assets'; // Replace with the actual path to the image
+import { assets } from '../../assets/assets'; 
 
 const Experts = ({ deviceType }) => {
     const reviews = [
@@ -42,7 +42,7 @@ const Experts = ({ deviceType }) => {
             description:
                 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, officia libero quia maiores tempora!',
         },
-        // Add more review objects as needed
+        
     ];
 
     const responsive = {
