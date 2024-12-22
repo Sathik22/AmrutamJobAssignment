@@ -1,0 +1,29 @@
+.Navbar {
+    min-height: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.305);
+}
+
+
+.navbarRight {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+@media (max-width:900px){
+    .contact{
+        display: none;
+    }
+    .navbarRight{
+        display: none;
+    }
+    .navbarRight{
+        gap: 20px;
+        justify-content: space-around;
+    }
+}

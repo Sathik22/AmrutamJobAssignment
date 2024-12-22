@@ -1,0 +1,172 @@
+.Ayurvedic-experts-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 45px;
+    border: 45px;
+    background-color: white;
+}
+
+.Experts-heading {
+    width: 100%;
+    color: #3a643b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 25px;
+    padding: 15px;
+}
+
+.Experts-heading h1 {
+    border-bottom: 4px solid rgba(128, 128, 128, 0.475);
+}
+
+.ExpertContainer {
+    width: 290px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 8px;
+    margin: 15px;
+    border-radius: 28px;
+    background-color: wheat;
+}
+
+.expert-image {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    justify-content: space-around;
+
+}
+
+.expert-image .profile-img1 {
+    width: 150px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.expert-image .profile-img2 {
+    position: absolute;
+    top: 160px;
+    padding: 4px 14px;
+    background-color: black;
+    color: white;
+    border-radius: 14px;
+}
+
+.experts-content {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 15px;
+}
+
+.experts-content .p2 {
+    font-weight: 300;
+}
+
+.para-bottom {
+    width: 100%;
+    height: 65px;
+    border: 15px;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    background-color: #3a643b;
+    border-bottom-right-radius: 28px;
+    border-bottom-left-radius: 28px;
+
+}
+
+.expers-bottom-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+    padding: 8px;
+}
+
+.expers-bottom-button button {
+    background-color: rgba(128, 128, 128, 0.497);
+    color: black;
+    border-radius: 8px;
+}
+
+@media (max-width:1200px) {
+    .Experts-heading {
+        margin: 10px;
+    }
+
+    .Experts-heading h1 {
+        font-size: 25px;
+    }
+
+    .ExpertContainer {
+        width: 250px;
+        height: 300px;
+        margin-left: 15px;
+    }
+
+    .expert-image .profile-img1 {
+        height: 120px;
+    }
+    .experts-content h2{
+        font-size: 20px;
+
+    }
+    .expert-image p{
+        font-size: 14px;
+        width: 65px;
+        margin-top: -18px;
+
+    }
+    .para-bottom p{
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width:650px) {
+    .Experts-heading {
+        margin: 10px;
+    }
+
+    .Experts-heading h1 {
+        font-size: 20px;
+
+    }
+
+    .ExpertContainer {
+        width: 220px;
+        height: 300px;
+        margin-left: 12px;
+    }
+
+    .expert-image .profile-img1 {
+        height: 90px;
+    }
+    .experts-content h2{
+        font-size: 15px;
+
+    }
+    .expert-image p{
+        font-size: 14px;
+        width: 75px;
+        margin-top: -44px;
+        text-align: center;
+
+    }
+    .para-bottom p{
+        font-size: 12px;
+    }
+
+}

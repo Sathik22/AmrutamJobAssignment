@@ -1,0 +1,85 @@
+.DownloadApp-container {
+    margin: 45px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 15px;
+}
+
+.download-app-heading1 {
+    color: #3a643b;
+}
+
+.Downloadapp-content {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: center;
+    gap: 15px;
+}
+
+.Downloadapp-content p {
+    font-weight: 400;
+}
+
+.downloadapp-img {
+    display: flex;
+    flex-direction: column;
+    column-gap: 15px;
+    margin: 8px;
+}
+
+.downloadapp-img h1 {
+    font-weight: 900;
+}
+
+.playstoreImg {
+    display: flex;
+    margin-top: 15px;
+    margin-left: -5px;
+    align-content: start;
+
+}
+
+.playstoreImg img {
+    width: 250px;
+    border-radius: 14px;
+    margin: 8px;
+}
+
+@media (max-width: 1200px) {
+    .DownloadApp-container {
+        margin: 45px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 15px;
+    }
+    .Downloadapp-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+    }
+ .heading1{
+    font-size: 22px;
+}
+    .DownloadApp-Iphone-img {
+        width: 450px;
+    }
+    .downloadapp-img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin: 10px;
+    }
+
+    .downloadapp-img .heading1, .heading2{
+        padding: 12px;
+        font-size: 22px;
+    }
+    .playstoreImg img{
+        width: 160px;
+    }
+}
